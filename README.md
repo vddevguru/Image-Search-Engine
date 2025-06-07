@@ -20,10 +20,10 @@
   ##  How to Get Your Unsplash Access Key
 
 
-Go to https://unsplash.com/developers
-Click on "Your Apps" (you'll need to log in or create a free Unsplash account)
-Click "New Application"
-Fill in basic details (you can use dummy info if it's just for practice)
-Once created, you’ll see your Access Key and Secret Key
-Copy the Access Key and paste it into your javascript code:
-const accessKey = "YOUR_ACCESS_KEY";
+- Go to https://unsplash.com/developers
+- Click on "Your Apps" (you'll need to log in or create a free Unsplash account)
+- Click "New Application"
+- Fill in basic details (you can use dummy info if it's just for practice)
+- Once created, you’ll see your Access Key and Secret Key
+- Copy the Access Key and paste it into your javascript code:
+  const accessKey = "YOUR_ACCESS_KEY";
