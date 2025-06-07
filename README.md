@@ -23,7 +23,15 @@
 - Go to https://unsplash.com/developers
 - Click on "Your Apps" (you'll need to log in or create a free Unsplash account)
 - Click "New Application"
-- Fill in basic details (you can use dummy info if it's just for practice)
+- Fill in basic details 
 - Once created, you’ll see your Access Key and Secret Key
 - Copy the Access Key and paste it into your javascript code:
   const accessKey = "YOUR_ACCESS_KEY";
+
+  ## Preview
+
+  ![imagesearch2](https://github.com/user-attachments/assets/79e68de9-f4e2-405f-a40e-d4b6c94b6a78)
+
+  ![imagesearch1](https://github.com/user-attachments/assets/fdff4bf6-c876-460f-9dee-acfefc8a8040)
+
+
