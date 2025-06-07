@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+   background: #F7F8F8;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #ACBB78, #F7F8F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   color: black;
+   height: 100%;
+   width:100vw;
+
+}
+h1{
+    text-align:center;
+    margin:100px auto 50px;
+    font-weight: 600;
+}
+form{
+    width: 90%;
+    max-width:600px;
+    margin:auto;
+    padding: 10px;
+    height:70px;
+    background-color: rgba(148, 142, 142, 0.329);
+    border: 0;
+    border-radius: 2px;
+    display: flex;
+    align-items:center;
+}
+form input{
+    flex: 1;
+    height: 100%;
+    border: 0;
+    background-color: transparent;
+    outline: 0;
+    font-size: large;
+    padding: 0 30px;
+}
+form button{
+    padding:0 40px;
+    height: 100%;
+    background-color: azure;
+    color: black;
+    border: 0;
+    font-size: medium;
+    outline: 0;
+    border-radius: 8px;
+    cursor:pointer;
+}
+#show-more-btn{
+    background-color: azure;
+    color: black;
+    border:0;
+    outline:0;
+    padding:10px 20px;
+    border-radius: 4px;
+    font-size: medium;
+    margin: 10px auto 100px;
+    cursor:pointer;
+    display: none;
+}
+#search-result{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+#search-result img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+    border-radius: 5px;;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    margin-top: 60px;
+  }
+
+  form {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  form input,
+  form button {
+    width: 100%;
+    height: 45px;
+  }
+
+  #search-result {
+    gap: 20px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  form {
+    gap: 15px;
+  }
+
+  #search-result img {
+    height: 200px;
+  }
+}
