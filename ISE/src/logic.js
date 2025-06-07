@@ -1,4 +1,4 @@
-const accessKey="bgNhSanlgjQXSOcsm1Yhfos51gT2WA8yOOkTWioVRsQ";
+const accessKey="YOUR_ACCESS_KEY";
 const searchForm = document.getElementById("search-form");
 const searchBox = document.getElementById("search-box");
 const searchResult = document.getElementById("search-result");
@@ -52,6 +52,3 @@ showMoreBtn.addEventListener("click", ()=>{
     searchImages();
 })
 
-
-
-// https://api.unsplash.com/search/photos?page=1&query=office&client_id=bgNhSanlgjQXSOcsm1Yhfos51gT2WA8yOOkTWioVRsQ
